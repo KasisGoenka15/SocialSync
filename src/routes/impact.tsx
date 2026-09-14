@@ -1,0 +1,3 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { ImpactPage } from "@/components/socialsync/public-pages";
+export const Route = createFileRoute("/impact")({ head:()=>({meta:[{title:"SocialSync Impact — See the Difference"},{name:"description",content:"Explore transparent donation, program and volunteer impact analytics."},{property:"og:title",content:"SocialSync Impact — See the Difference"},{property:"og:description",content:"Explore transparent donation, program and volunteer impact analytics."},{property:"og:type",content:"website"},{name:"twitter:card",content:"summary_large_image"}]}), component:ImpactPage });

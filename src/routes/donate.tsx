@@ -1,0 +1,3 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { DonationPage } from "@/components/socialsync/public-pages";
+export const Route = createFileRoute("/donate")({ head:()=>({meta:[{title:"Donate to SocialSync — Demo Contribution"},{name:"description",content:"Try the SocialSync demonstration donation flow. No real payments are processed."},{property:"og:title",content:"Donate to SocialSync — Demo Contribution"},{property:"og:description",content:"Try the SocialSync demonstration donation flow. No real payments are processed."},{property:"og:type",content:"website"},{name:"twitter:card",content:"summary_large_image"}]}), component:DonationPage });

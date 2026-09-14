@@ -1,0 +1,5 @@
+- [x] Build shared design system, navigation, footer, and content data
+- [x] Build all public pages and interactions
+- [x] Build admin dashboard and management views
+- [x] Add route metadata and branded favicon
+- [x] Verify desktop/mobile navigation, forms, charts, and overflow

@@ -1,0 +1,3 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { LoginPage } from "@/components/socialsync/public-pages";
+export const Route = createFileRoute("/login")({ head:()=>({meta:[{title:"SocialSync Login — Demo Access"},{name:"description",content:"Access simulated volunteer, donor and admin experiences on SocialSync."},{property:"og:title",content:"SocialSync Login — Demo Access"},{property:"og:description",content:"Access simulated volunteer, donor and admin experiences on SocialSync."},{property:"og:type",content:"website"},{name:"twitter:card",content:"summary_large_image"}]}), component:LoginPage });

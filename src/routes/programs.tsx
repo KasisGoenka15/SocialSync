@@ -1,0 +1,3 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { ProgramsPage } from "@/components/socialsync/public-pages";
+export const Route = createFileRoute("/programs")({ head:()=>({meta:[{title:"SocialSync Programs — Community Focus Areas"},{name:"description",content:"Explore education, healthcare, women empowerment, environment and community programs."},{property:"og:title",content:"SocialSync Programs — Community Focus Areas"},{property:"og:description",content:"Explore education, healthcare, women empowerment, environment and community programs."},{property:"og:type",content:"website"},{name:"twitter:card",content:"summary_large_image"}]}), component:ProgramsPage });

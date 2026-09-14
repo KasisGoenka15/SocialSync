@@ -1,0 +1,3 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { EventsPage } from "@/components/socialsync/public-pages";
+export const Route = createFileRoute("/events")({ head:()=>({meta:[{title:"SocialSync Events — Serve Your Community"},{name:"description",content:"Explore upcoming community events and register as a demo volunteer."},{property:"og:title",content:"SocialSync Events — Serve Your Community"},{property:"og:description",content:"Explore upcoming community events and register as a demo volunteer."},{property:"og:type",content:"website"},{name:"twitter:card",content:"summary_large_image"}]}), component:EventsPage });

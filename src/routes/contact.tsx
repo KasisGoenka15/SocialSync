@@ -1,0 +1,3 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { ContactPage } from "@/components/socialsync/public-pages";
+export const Route = createFileRoute("/contact")({ head:()=>({meta:[{title:"Contact SocialSync — Let’s Create Impact"},{name:"description",content:"Contact SocialSync about volunteering, donations and NGO partnerships."},{property:"og:title",content:"Contact SocialSync — Let’s Create Impact"},{property:"og:description",content:"Contact SocialSync about volunteering, donations and NGO partnerships."},{property:"og:type",content:"website"},{name:"twitter:card",content:"summary_large_image"}]}), component:ContactPage });

@@ -1,0 +1,3 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { CampaignsPage } from "@/components/socialsync/public-pages";
+export const Route = createFileRoute("/campaigns")({ head:()=>({meta:[{title:"SocialSync Campaigns — Find a Cause"},{name:"description",content:"Search verified community campaigns and choose a cause to support."},{property:"og:title",content:"SocialSync Campaigns — Find a Cause"},{property:"og:description",content:"Search verified community campaigns and choose a cause to support."},{property:"og:type",content:"website"},{name:"twitter:card",content:"summary_large_image"}]}), component:CampaignsPage });

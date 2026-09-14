@@ -1,0 +1,3 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { HomePage } from "@/components/socialsync/public-pages";
+export const Route = createFileRoute("/")({ head:()=>({meta:[{title:"SocialSync — Connect, Contribute, Create Impact"},{name:"description",content:"Connect NGOs, volunteers and donors through campaigns, events and measurable social impact."},{property:"og:title",content:"SocialSync — Connect, Contribute, Create Impact"},{property:"og:description",content:"Connect NGOs, volunteers and donors through campaigns, events and measurable social impact."},{property:"og:type",content:"website"},{name:"twitter:card",content:"summary_large_image"}]}), component:HomePage });
